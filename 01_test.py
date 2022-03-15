@@ -249,9 +249,9 @@ if __name__ == "__main__":
 
         # calculate averages for AUCs and pAUCs
         amean_performance = np.mean(np.array(performance_over_all, dtype=float), axis=0)
-        csv_lines.append(["arithmetic mean over all machine types, sections, and domains", ""] + list(amean_performance))
+        csv_lines.append(["arithmetic mean over all machine types, sections, and domains"] + list(amean_performance))
         hmean_performance = scipy.stats.hmean(np.maximum(np.array(performance_over_all, dtype=float), sys.float_info.epsilon), axis=0)
-        csv_lines.append(["harmonic mean over all machine types, sections, and domains", ""] + list(hmean_performance))
+        csv_lines.append(["harmonic mean over all machine types, sections, and domains"] + list(hmean_performance))
         csv_lines.append([])
         
         # output results
