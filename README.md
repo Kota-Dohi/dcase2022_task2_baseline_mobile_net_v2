@@ -196,9 +196,9 @@ valve
 arithmetic mean    0.706        0.639     0.657       0.920            0.881            0.353          0.353          0.464              0.463
 harmonic mean      0.690        0.610     0.630       0.915            0.874            0.213          0.213          0.346              0.342
 
-                                                                   AUC(source)  AUC(target)   pAUC  precision(source)  precision(target) recall(source)  recall(target) F1 score(source)  F1 score(target)
-"arithmetic mean over all machine types  sections  and domains"     0.679          0.531      0.576 0.6853 0.5800 0.3923 0.3923 0.4399 0.4192
-"harmonic mean over all machine types  sections  and domains" 0.6415 0.4774 0.5635 0.00 0.00 0.0 0.0 0.0 0.0
+                                                                   AUC(source)  AUC(target)   pAUC   precision(source)  precision(target) recall(source)  recall(target) F1 score(source)  F1 score(target)
+"arithmetic mean over all machine types  sections  and domains"     0.679          0.531      0.576     0.685               0.580            0.392            0.392          0.439             0.419
+"harmonic mean over all machine types  sections  and domains"       0.641          0.477      0.563     0.00                0.00             0.0              0.0            0.0               0.0
 
 ```
 
