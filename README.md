@@ -151,27 +151,27 @@ If the mode is "development", the script also outputs another csv file including
 You can check the anomaly scores in the csv files `anomaly_score_<machine_type>_section_<section_index>_test.csv` in the directory `result/`.
 Each anomaly score corresponds to a wav file in the directories `dev_data/<machine_type>/test/`.
 
-`anomaly_score_fan_section_00_source_test.csv`
+`anomaly_score_fan_section_00_test.csv`
 ```
-section_00_source_test_normal_0000.wav	-5.492875
-section_00_source_test_normal_0001.wav	-13.004328
-section_00_source_test_normal_0002.wav	-7.7093716
-section_00_source_test_normal_0003.wav	-6.13771
-section_00_source_test_normal_0004.wav	-4.9352393
-section_00_source_test_normal_0005.wav	-3.93735
+section_00_source_test_normal_0000_m-n_W.wav  -30.378235
+section_00_source_test_normal_0001_m-n_X.wav  -32.738876
+section_00_source_test_normal_0002_m-n_W.wav  -31.964493
+section_00_source_test_normal_0003_m-n_W.wav  -32.687504
+section_00_source_test_normal_0004_m-n_X.wav  -25.423658
+section_00_source_test_normal_0005_m-n_W.wav  -35.16318
   ...
 ```
 
-Also, anomaly detection results after thresholding can be checked in the csv files `anomaly_score_<machine_type>_section_<section_index>_<domain>_test.csv`:
+Also, anomaly detection results after thresholding can be checked in the csv files `anomaly_score_<machine_type>_section_<section_index>_test.csv`:
 
-`decision_result_fan_section_00_source_test.csv`
+`decision_result_fan_section_00_test.csv`
 ```
-section_00_source_test_normal_0000.wav	0
-section_00_source_test_normal_0001.wav	0
-section_00_source_test_normal_0002.wav	0
-section_00_source_test_normal_0003.wav	0
-section_00_source_test_normal_0004.wav	0
-section_00_source_test_normal_0005.wav	1
+section_00_source_test_normal_0000_m-n_W.wav,0
+section_00_source_test_normal_0001_m-n_X.wav,0
+section_00_source_test_normal_0002_m-n_W.wav,0
+section_00_source_test_normal_0003_m-n_W.wav,0
+section_00_source_test_normal_0004_m-n_X.wav,0
+section_00_source_test_normal_0005_m-n_W.wav,0
   ...
 ```
 
