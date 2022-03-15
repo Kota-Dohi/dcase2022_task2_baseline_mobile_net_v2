@@ -28,9 +28,9 @@ So, please download the datasets in each stage:
 - "Development dataset"
   - Download `dev_data_<machine_type>.zip` from https://zenodo.org/record/6355122.
 - "Additional training dataset", i.e. the evaluation dataset for training
-  - After April. 1, 2022, download additional training dataset.
+  - After April 15, 2022, download additional training dataset.
 - "Evaluation dataset", i.e. the evaluation dataset for test
-  - After June. 1, 2022, download evaluation dataset.
+  - After June 1, 2022, download evaluation dataset.
 ### 3. Unzip dataset
 Unzip the downloaded files and make the directory structure as follows:
 
@@ -202,7 +202,7 @@ harmonic mean      0.690        0.610     0.630       0.915            0.874    
 
 ```
 
-### 8. Run training script for the additional training dataset (after April 1, 2022)
+### 8. Run training script for the additional training dataset (after April 15, 2022)
 After the additional training dataset is launched, download and unzip it.
 Move it to `eval_data/<machine_type>/train/`.
 Run the training script `00_train.py` with the option `-e`. 
