@@ -180,9 +180,9 @@ Also, you can check performance indicators such as AUC, pAUC, precision, recall,
 `result.csv`
 ```  
 fan
-    AUC (source)  AUC (target)   pAUC  precision (source)  precision (target) recall (source) recall (target) F1 score (source)  F1 score (target)
-00     0.8584        0.6228     0.5252        1.0                  0.625            0.15           0.15           0.2608              0.2419
-01 0.7491 0.3602 0.5121 0.9393 0.62 0.31 0.31 0.4661 0.4133
+    AUC(source)  AUC(target)   pAUC  precision(source)  precision(target) recall(source) recall(target) F1 score(source)  F1 score(target)
+00     0.858        0.622     0.525       1.0              0.625            0.15           0.15           0.260              0.241
+01     0.749        0.362     0.512       0.939            0.62             0.31           0.31           0.466              0.4133
 02 0.6918 0.5778 0.6536 0.8636 0.6867 0.57 0.57 0.6867 0.6229
 arithmetic mean 0.7664 0.5202 0.5636 0.9343 0.6439 0.3433 0.3433 0.4712 0.4260
 harmonic mean 0.7604 0.4907 0.5569 0.9309 0.6425 0.2575 0.2575 0.4035 0.3677
