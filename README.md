@@ -180,24 +180,24 @@ Also, you can check performance indicators such as AUC, pAUC, precision, recall,
 `result.csv`
 ```  
 fan
-    AUC(source)  AUC(target)   pAUC  precision(source)  precision(target) recall(source) recall(target) F1 score(source)  F1 score(target)
-00     0.858        0.622     0.525       1.0              0.625            0.15           0.15           0.260              0.241
-01     0.749        0.362     0.512       0.939            0.62             0.31           0.31           0.466              0.4133
-02 0.6918 0.5778 0.6536 0.8636 0.6867 0.57 0.57 0.6867 0.6229
-arithmetic mean 0.7664 0.5202 0.5636 0.9343 0.6439 0.3433 0.3433 0.4712 0.4260
-harmonic mean 0.7604 0.4907 0.5569 0.9309 0.6425 0.2575 0.2575 0.4035 0.3677
+                AUC(source)  AUC(target)   pAUC  precision(source)  precision(target) recall(source) recall(target) F1 score(source)  F1 score(target)
+00                 0.858        0.622     0.525       1.0              0.625            0.15           0.15           0.260              0.241
+01                 0.749        0.362     0.512       0.939            0.62             0.31           0.31           0.466              0.413
+02                 0.691        0.577     0.653       0.863            0.686            0.57           0.57           0.686              0.622
+arithmetic mean    0.766        0.520     0.563       0.934            0.643            0.343          0.343          0.471              0.426
+harmonic mean      0.760        0.490     0.556       0.930            0.642            0.257          0.257          0.403              0.3677
 
   ...
 valve
-AUC (source) AUC (target) pAUC precision (source) precision (target) recall (source) recall (target) F1 score (source) F1 score (target)
-00 0.7867 0.4754 0.5689 0.9285 0.8125 0.13 0.13 0.2280 0.2241
-01 0.5638 0.6372 0.5447 0.8333 0.8333 0.2 0.2 0.3225 0.3225
-02 0.768 0.8068 0.8578 1.0 1.0 0.73 0.73 0.8439 0.8439
-arithmetic mean 0.7061 0.6398 0.6571 0.9206 0.8819 0.3533 0.3533 0.4648 0.4635
-harmonic mean 0.6901 0.6107 0.6303 0.9154 0.8744 0.2133 0.2133 0.3460 0.3429
+                AUC(source)  AUC(target)   pAUC  precision(source)  precision(target) recall(source) recall(target) F1 score(source)  F1 score(target)
+00                 0.786        0.475     0.568       0.928            0.812            0.13           0.13           0.228              0.224
+01                 0.563        0.637     0.544       0.833            0.833            0.2            0.2            0.322              0.322
+02                 0.768        0.806     0.857       1.0              1.0              0.73           0.73           0.843              0.843
+arithmetic mean    0.706        0.639     0.657       0.920            0.881            0.353          0.353          0.464              0.463
+harmonic mean      0.690        0.610     0.630       0.915            0.874            0.213          0.213          0.346              0.342
 
- AUC (source) AUC (target) pAUC precision (source) precision (target) recall (source) recall (target) F1 score (source) F1 score (target)
-"arithmetic mean over all machine types  sections  and domains" 0.6798 0.5317 0.5767 0.6853 0.5800 0.3923 0.3923 0.4399 0.4192
+                                                                   AUC(source)  AUC(target)   pAUC  precision(source)  precision(target) recall(source)  recall(target) F1 score(source)  F1 score(target)
+"arithmetic mean over all machine types  sections  and domains"     0.679          0.531      0.576 0.6853 0.5800 0.3923 0.3923 0.4399 0.4192
 "harmonic mean over all machine types  sections  and domains" 0.6415 0.4774 0.5635 0.00 0.00 0.0 0.0 0.0 0.0
 
 ```
