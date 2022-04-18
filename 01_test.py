@@ -168,8 +168,8 @@ if __name__ == "__main__":
                 data = data.reshape(data.shape[0], param["feature"]["n_frames"], param["feature"]["n_mels"], 1)
             
                 p = model.predict(data)[:, section_idx : section_idx + 1]
-                y_pred[file_idx] = np.mean(np.log(np.maximum(1.0 - p, sys.float_info.epsilon) 
-                                            - np.log(np.maximum(p, sys.float_info.epsilon))))
+                y_pred[file_idx] = np.mean(np.log(np.maximum(1.0 - p, sys.float_info.epsilon)) 
+                                            - np.log(np.maximum(p, sys.float_info.epsilon)))
 
                 # store anomaly scores
                 anomaly_score_list.append([os.path.basename(file_path), y_pred[file_idx]])
